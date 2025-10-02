@@ -50,7 +50,7 @@ uses
 var
   Converter: OleVariant;
 begin
-  Converter := CreateOleObject('HTMLConverterPro.HTMLConverterX');
+  Converter := CreateOleObject('HTMLConverter.HTMLConverterX');
   Converter.Convert('c:\test\source.html', 'c:\test\dest.pdf', '-c PDF -log c:\test\HTML.log');
   if Converter.ErrorMessage <> '' then
     ShowMessage(Converter.ErrorMessage);
