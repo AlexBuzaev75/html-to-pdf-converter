@@ -68,7 +68,7 @@ begin
   FLogFile := '';
   
   try
-    FConverter := CreateOleObject('HTMLConverterPro.HTMLConverterX');
+    FConverter := CreateOleObject('HTMLConverter.HTMLConverterX');
   except
     on E: Exception do
     begin
