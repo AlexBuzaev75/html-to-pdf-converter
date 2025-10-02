@@ -121,6 +121,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 For issues with TotalHTMLConverterX component, please refer to:
 - Official documentation: https://www.coolutils.com/TotalHTMLConverterX
-- CoolUtils support
+- CoolUtils support: https://www.coolutils.com/Contact
 
 For issues with this Delphi wrapper, please open an issue on GitHub.
